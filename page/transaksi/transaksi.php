@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "tagy3641_nusa"; // Ganti dengan username database Anda
-$pass = "29^mcZTa}bLfDPrc"; // Ganti dengan password database Anda
+$user = "tagy3641_aktsystem"; // Ganti dengan username database Anda
+$pass = "ku+P.uz?[p$3ldj6"; // Ganti dengan password database Anda
 $db = "tagy3641_akt"; // Ganti dengan nama database Anda
 $konektor = new mysqli($host, $user, $pass, $db);
 

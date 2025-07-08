@@ -26,7 +26,7 @@
 
 <?php
 // Koneksi ke database
-$conn = new mysqli("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
+$conn = new mysqli("localhost", "tagy3641_aktsystem", "ku+P.uz?[p$3ldj6", "tagy3641_akt");
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }

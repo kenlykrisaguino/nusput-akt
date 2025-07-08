@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['tanggal_awal']) && isset($_POST['tanggal_akhir'])) {
     // Koneksi ke database
-$konektor = mysqli_connect("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
+$konektor = mysqli_connect("localhost", "tagy3641_aktsystem", "ku+P.uz?[p$3ldj6", "tagy3641_akt");
 
 // Validasi dan ambil tanggal awal, tanggal akhir, dan nomor kasbon dari input pengguna
 $tanggal_awal = $_POST['tanggal_awal'];

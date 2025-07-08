@@ -2,8 +2,8 @@
 //error_reporting(0);
 //set koneksi ke basis data
 $host = "localhost"; //Berjalan di local
-$username = "tagy3641_nusa";
-$password = "29^mcZTa}bLfDPrc";
+$username = "tagy3641_aktsystem";
+$password = "ku+P.uz?[p$3ldj6";
 $db_name = "tagy3641_akt"; //Nama database
 
 //koneksi ke basis data

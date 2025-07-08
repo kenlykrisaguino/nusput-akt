@@ -2,7 +2,7 @@
 require('fpdf/fpdf.php');
 
 if (isset($_POST['no_transaksi'])) {
-    $konektor = mysqli_connect("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
+    $konektor = mysqli_connect("localhost", "tagy3641_aktsystem", "ku+P.uz?[p$3ldj6", "tagy3641_akt");
 
     $no_transaksi = $_POST['no_transaksi'];
 

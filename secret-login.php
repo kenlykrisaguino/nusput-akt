@@ -4,8 +4,8 @@ session_start();
 header('Content-Type: application/json');
 
 $host = 'localhost';
-$user = 'tagy3641_nusa';
-$pass = '29^mcZTa}bLfDPrc';
+$user = 'tagy3641_aktsystem';
+$pass = 'ku+P.uz?[p$3ldj6';
 $db = 'tagy3641_akt';
 
 // 1. Tambahkan pengecekan koneksi database
