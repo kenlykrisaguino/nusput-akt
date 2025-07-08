@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root"; // Ganti dengan username database Anda
-$pass = ""; // Ganti dengan password database Anda
-$db = "db_nusput_akt"; // Ganti dengan nama database Anda
+$user = "tagy3641_nusa"; // Ganti dengan username database Anda
+$pass = "29^mcZTa}bLfDPrc"; // Ganti dengan password database Anda
+$db = "tagy3641_akt"; // Ganti dengan nama database Anda
 $konektor = new mysqli($host, $user, $pass, $db);
 
 if ($konektor->connect_error) {

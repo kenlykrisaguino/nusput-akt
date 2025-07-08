@@ -26,7 +26,7 @@
 
 <?php
 // Koneksi ke database
-$conn = new mysqli("localhost", "username", "password", "database_name");
+$conn = new mysqli("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
@@ -71,7 +71,7 @@ $conn->close();
 
 
 // koneksi database kodegenerator
-$koneksi = mysqli_connect('localhost','root','','kodegenerator');
+$koneksi = mysqli_connect('localhost','root','','tagy3641_akt');
 // mengambil data barang dari tabel dengan kode terbesar
 $query = mysqli_query($koneksi, "SELECT max(kode) as kodeTerbesar FROM tabel");
 $data = mysqli_fetch_array($query);

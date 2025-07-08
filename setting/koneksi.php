@@ -2,9 +2,9 @@
 //error_reporting(0);
 //set koneksi ke basis data
 $host = "localhost"; //Berjalan di local
-$username = "root";
-$password = "";
-$db_name = "db_kampung_flory"; //Nama database
+$username = "tagy3641_nusa";
+$password = "29^mcZTa}bLfDPrc";
+$db_name = "tagy3641_akt"; //Nama database
 
 //koneksi ke basis data
 $mysqli = new mysqli($host, $username, $password, $db_name);

@@ -5,7 +5,7 @@ $no_bukti = $tanggal = $sumber_dana = "";
 $jenis_transaksi = ""; // Inisialisasi variabel
 
 if (isset($_POST['no_transaksi']) && !empty($_POST['no_transaksi'])) {
-          $konektor = mysqli_connect("localhost", "root", "", "nusput");
+          $konektor = mysqli_connect("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
           
           // Pastikan nomor transaksi yang diproses hanya satu (ambil baris pertama saja)
           $no_transaksi = mysqli_real_escape_string($konektor, $_POST['no_transaksi']);

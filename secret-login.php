@@ -4,9 +4,9 @@ session_start();
 header('Content-Type: application/json');
 
 $host = 'localhost';
-$user = 'root';
-$pass = '';
-$db = 'db_nusput_akt';
+$user = 'tagy3641_nusa';
+$pass = '29^mcZTa}bLfDPrc';
+$db = 'tagy3641_akt';
 
 // 1. Tambahkan pengecekan koneksi database
 $konektor = new mysqli($host, $user, $pass, $db);

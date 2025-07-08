@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['tanggal_awal']) && isset($_POST['tanggal_akhir'])){
     // Koneksi ke database
-    $konektor = mysqli_connect("localhost", "root", "", "1_nusaputera");
+    $konektor = mysqli_connect("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
 
     // Validasi dan ambil tanggal awal dan akhir dari input pengguna
     $tanggal_awal = $_POST['tanggal_awal'];

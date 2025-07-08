@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['no_kasbon'])) {
     $no_kasbon = $_POST['no_kasbon'];
-    $konektor = mysqli_connect("localhost", "root", "", "1_nusaputera");
+    $konektor = mysqli_connect("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
 
     $sql = $konektor->query("SELECT * FROM transaksi_bank WHERE no_kasbon = $no_kasbon AND status = 1");
 

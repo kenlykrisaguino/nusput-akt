@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['tanggal_awal']) && isset($_POST['tanggal_akhir'])) {
-    $konektor = mysqli_connect("localhost", "root", "", "1_nusaputera");
+    $konektor = mysqli_connect("localhost", "tagy3641_nusa", "29^mcZTa}bLfDPrc", "tagy3641_akt");
 
     $tanggal_awal = $_POST['tanggal_awal'];
     $tanggal_akhir = $_POST['tanggal_akhir'];
@@ -195,7 +195,7 @@ ORDER BY
 
 
 // Koneksi ke database
-$konektor = mysqli_connect("localhost", "username", "password", "nama_database");
+$konektor = mysqli_connect("localhost", "username", "password", "tagy3641_akt");
 
 // Pastikan koneksi berhasil
 if (!$konektor) {

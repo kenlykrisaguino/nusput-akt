@@ -43,7 +43,7 @@
             <th>Status</th>
 		</tr>
 		<?php 
-		$konektor = mysqli_connect("localhost","root","","1_nusaputera");
+		$konektor = mysqli_connect("localhost","tagy3641_nusa","29^mcZTa}bLfDPrc","tagy3641_akt");
  		$sql = $konektor->query("SELECT * FROM lokasi");
 		$no = 1;
 		while ($data = $sql->fetch_assoc()) {

@@ -12,9 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 }
 
 $host = 'localhost';
-$user = 'root';
-$pass = '';
-$db = 'db_nusput_akt';
+$user = 'tagy3641_nusa';
+$pass = '29^mcZTa}bLfDPrc';
+$db = 'tagy3641_akt';
 $konektor = new mysqli($host, $user, $pass, $db);
 
 if ($konektor->connect_error) {
